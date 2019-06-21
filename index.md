@@ -38,14 +38,6 @@ Players then take turns playing the game!
 
 The board was designed using the Java Swing Package. A grid of JButtons are used to make the board. 
 
-
-{{ "{% highlight javascript " }}%}  
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
-{{ "{% endhighlight " }}%}  
-
-creates...
-
-```javascript
+```java
 var this = 10;
 ```
