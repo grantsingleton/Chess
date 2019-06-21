@@ -9,4 +9,4 @@ This is a fully functional chess game that can be played over a network between 
 * Agile Software Development Process
 
 ## Walkthrough of the UI
-![start](./pages-images/main.png)
+![start](./pages-images/main.PNG)
