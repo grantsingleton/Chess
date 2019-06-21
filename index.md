@@ -9,4 +9,26 @@ This is a fully functional chess game that can be played over a network between 
 * Agile Software Development Process
 
 ## Walkthrough of the UI
+
+### Start the Game 
+
 ![start](./pages-images/main.PNG)
+
+### Choose Mode and Server
+
+In the next screen, the player chooses a mode of play, and then is asked if they would like to host the server.
+
+![server-select](./pages-images/server-select.PNG)
+
+### Enter the Game
+
+The board displays, and tells the user which color pieces they are (this is decided by who joins the game first).
+
+![board](./pages-images/board.PNG)
+
+### Play
+ 
+Players then take turns playing the game!
+
+![board-2](./pages-images/board-2.PNG)
+
