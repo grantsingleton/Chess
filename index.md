@@ -32,3 +32,21 @@ Players then take turns playing the game!
 
 ![board-2](./pages-images/board-2.PNG)
 
+## Design
+
+### The Board
+
+The board was designed using the Java Swing Package. A grid of JButtons are used to make the board. 
+
+
+{{ "{% highlight javascript " }}%}  
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{{ "{% endhighlight " }}%}  
+
+creates...
+
+{% highlight javascript %}
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{% endhighlight %}
