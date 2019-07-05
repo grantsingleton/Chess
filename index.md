@@ -110,7 +110,7 @@ private int processSelection(int x, int y) {
 }
 ```
 
-After a piece is stored, the next button click will be a 'move click'. When a user tries to move a piece, several checks are performed. First, that piece must pass an isValidMove function which is a function written to validate the moves of each type of piece. The location of the move is checked to be sure that this move is not going to kill a friendly piece. It also checks to be sure it is that moving players turn (for network mode). Finally, if the user is moving their king, the program checks to be sure that the proposed move will not place the king in check. After the above checks are performed, the piece is moved. 
+After a piece is stored, the next button click will be a 'move click'. When a user tries to move a piece, several checks are performed. First, that piece must pass an isValidMove function which is a function written to validate the moves of each type of piece. The location of the move is checked to be sure that this move is not going to kill a friendly piece. It also checks that it is actually the players turn who is trying to make a move (for network mode). Finally, if the user is moving their king, the program checks to be sure that the proposed move will not place the king in check. After the above checks are performed, the piece is moved. 
 
 ```java
 if (selected.isValidMove(x, y) && checkMoveLocation(x, y) && selected.getColor().equals(turn)) {
@@ -135,4 +135,4 @@ ss = new ServerSocket(9998);
 View the full code for the server [here](https://github.com/grantsingleton/Chess/blob/master/ChessServer.java).
 
 ## Comments
-This is a brief intro to the game. I encourage to check out the repository on Github by clicking the link at the top of the page, or you can find it [here](https://github.com/grantsingleton/Chess). I also encourage you to download the code and play the game!
+This is a brief intro to the game. I encourage you to check out the repository on Github by clicking the link at the top of the page, or you can find it [here](https://github.com/grantsingleton/Chess). I also encourage you to download the code and play the game!
